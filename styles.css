@@ -145,15 +145,6 @@ nav a.active::after {
     line-height: 1.6;
 }
 
-.hero-text .eyebrow {
-    margin-bottom: 10px;
-    font-size: 0.85rem;
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #b8664a;
-}
-
 .hero-text .btn {
     margin-top: 25px;
 }
@@ -187,42 +178,10 @@ nav a.active::after {
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.btn-accent {
-    background-color: var(--accent);
-}
-
 .btn:hover,
 .contact-form-card button:hover {
     transform: translateY(-3px);
     box-shadow: 0 8px 16px rgba(47, 82, 51, 0.3);
-}
-
-/* ============ STATS STRIP ============ */
-.stats {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    margin-top: 25px;
-}
-
-.stat-card {
-    padding: 22px;
-    text-align: center;
-    background-color: white;
-    border-radius: var(--radius);
-    border-top: 4px solid var(--accent);
-    box-shadow: var(--shadow);
-}
-
-.stat-card strong {
-    display: block;
-    font-size: 1.8rem;
-    color: var(--green-dark);
-}
-
-.stat-card span {
-    color: var(--green-mid);
-    font-size: 0.95rem;
 }
 
 /* ============ ABOUT ============ */
@@ -432,9 +391,5 @@ nav a.active::after {
 
     .hero-text h2 {
         font-size: 2rem;
-    }
-
-    .stats {
-        grid-template-columns: 1fr;
     }
 }
